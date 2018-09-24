@@ -1,3 +1,5 @@
+Note: Most of this code comes from https://github.com/et0x/Get-ChromePasswords, I've only mildly tweeked it and added in cookie dumping.
+
 # Get-ChromePasswords
 ```PowerShell
 .Synopsis
